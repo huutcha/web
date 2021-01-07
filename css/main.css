@@ -1,0 +1,33 @@
+:root{
+    --primary-color: #66b3ff;
+    --text-color: #333;
+    --primary2-color: #f9ca24;
+}
+*{
+    box-sizing: inherit;
+    font-size: 62.5%;
+    font-family: 'Noto Sans JP', sans-serif;;
+}
+body{
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8rem;
+
+}
+a{
+    text-decoration: none;
+
+}
+ul,li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+h1,h2,h3,h4{
+    margin: 0;
+}
+button{
+    border: none;
+    outline: none;
+}
