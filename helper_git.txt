@@ -1,6 +1,7 @@
 Cách sử dụng git:
 
 *** File này t viết chưa chắc đúng hết do không có 2 máy để test, ae bị lỗi đoạn nào thì nhắn cho t nhé :)))))
+*** Trong cmd không Crl+C và Crl+V được nên muốn paste một cái bên ngoài thì dùng shift+insert nhé
 
 1. Truy cập vào repository đang làm, nhấn vào code rồi copy link htpps
 2. Sử dụng Command Prompt di chuyển về ổ đĩa hoặc thư mục đặt project:
