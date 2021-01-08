@@ -12,7 +12,6 @@ Cách sử dụng git:
 *** Các lần sau mỗi trc khi làm hãy cập nhật thay đổi code của các thành viên khác về máy:
 	- git pull (Tải những thay đổi về máy)
 
-
 4. Tạo username và email:
 	- git config --global user.name "username"
 	- git config --global user.email "email@vinasupport.com"
