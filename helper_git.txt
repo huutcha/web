@@ -1,0 +1,47 @@
+Cách sử dụng git:
+
+*** File này t viết chưa chắc đúng hết do không có 2 máy để test, ae bị lỗi đoạn nào thì nhắn cho t nhé :)))))
+
+1. Truy cập vào repository đang làm, nhấn vào code rồi copy link htpps
+2. Sử dụng Command Prompt di chuyển về ổ đĩa hoặc thư mục đặt project:
+	- Câu lệnh di chuyển vd: cd /D D:\php    //Di chuyển về folder php trong ổ D
+
+3. Clone code về folder (tải code và các commit về máy): 
+	- git clone 'link htpps' 	// VD: git clone https://github.com/huutcha/test_git.git 
+*** Lưu ý clone chỉ sử dụng lần đầu nếu máy chưa có folder project đang làm
+*** Các lần sau mỗi trc khi làm hãy cập nhật thay đổi code của các thành viên khác về máy:
+	- git pull (Tải những thay đổi về máy)
+
+4. Tạo username và email:
+	- git config --global user.name "username"
+	- git config --global user.email "email@vinasupport.com"
+	- VD: 	+ git config --global user.name "huutcha"
+			+ git config --global user.email "huutc123@gmail.com"
+
+5. Add new branch ( Tạo một nhánh mới để làm việc):
+	- git branch (Kiểm tra các nhánh đang có)
+	- git branch branch-name (Tạo nhánh mới)
+		+ VD: git branch index/header (Tạo nhánh index/header nhằm chỉnh sửa file index vị trí header)
+	- git checkout branch-name (chuyển vị trí làm việc sang nhánh vừa tạo)
+		+ VD: git checkout index/header
+
+6. Bắt đầu code ....
+
+7. Sau khi code xong một chức năng hay chỉnh sửa 1 chức năng thì:
+	- git status (Kiểm tra những thay đổi)
+	- git add .  (Thêm những file đã thay đổi)
+	- git commit -m "Mô tả" (Commit những thay đổi đó)
+		+ VD: git commit -m "Thêm UI,UX phần thông báo"
+
+8. Push lên nhánh đang làm việc:
+	- git push origin branch-name
+	 + VD: git push origin index/header
+
+9. Sau khi bạn hoàn thành công việc trên nhánh này:
+	- Truy cập github.com
+	- Xem danh sách các branch(nhánh).
+	- Tạo một pull request cho cái branch bạn vừa hoàn thành.
+
+10. Chờ reviewer xem cái branch bạn làm:
+	- Nếu Ok -> Add branch to master(Thêm vào nhánh chính)
+	- Nếu chưa được (Review note những đoạn chưa đc) -> Chỉnh sửa rồi push lại lên github
