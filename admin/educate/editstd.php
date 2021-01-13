@@ -18,7 +18,8 @@ include 'inc/sidebar.php';
 	}
 
  ?>
-
+<script src="../js/addActive.js"></script>
+<script>addActive('#stdlist')</script>
 <div class="content">
 	<h1 class="title">Chỉnh sửa thông tin sinh viên</h1>
 	<form class="needs-validation form form-darkmode" action="" method="post" novalidate>

@@ -1,12 +1,12 @@
 <?php 
-	function getStds ($sql) {
+	function getDatas ($sql) {
 		global $conn;
 		$result = $conn->query($sql);
 		if ($data = $result->fetch_all(MYSQLI_ASSOC)){
 			return $data;
 		}
 	};
-	function getStd ($sql) {
+	function getData ($sql) {
 		global $conn;
 		$result = $conn->query($sql);
 		// var_dump($result);

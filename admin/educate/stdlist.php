@@ -1,12 +1,14 @@
-<?php require './connect.php'; ?>
-<?php require './process-std.php';
-	$stds = getStds("SELECT * FROM sinhvien");
+<?php require '../config/connect.php'; ?>
+<?php require '../config/process-std.php';
+	$stds = getDatas("SELECT * FROM sinhvien");
 	$i = 0;
  ?>
  <?php 
- 	include 'inc/header.php';
- 	include 'inc/sidebar.php';
+ 	include '../inc/header.php';
+ 	include 'sidebar.php';
   ?>
+<script src="../js/addActive.js"></script>
+<script>addActive('#stdlist')</script>
 <div class="content">
 	<div class="d-flex justify-content-between align-items-center">
 		<h1 class="title">Danh sách sinh viên</h1>
@@ -39,6 +41,7 @@
 	    <?php endforeach ?>
 	  </tbody>
 	</table>
+	
 </div>
 <div class="modal" tabindex="-1" id="delete-modal">
   <div class="modal-dialog">
@@ -67,5 +70,5 @@
 	  delBtn.href = 'delstd.php?stdID=' + stdID;
 	});
 </script>
-<?php include 'inc/footer.php'; ?>
+<?php include '../inc/footer.php'; ?>
 <?php $conn->close() ?>

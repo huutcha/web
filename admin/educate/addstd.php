@@ -6,7 +6,8 @@ require 'process-std.php';
 include 'inc/header.php';
 include 'inc/sidebar.php';
  ?>
-
+<script src="../js/addActive.js"></script>
+<script>addActive('#stdlist')</script>
 <div class="content">
 	<h1 class="title">Thêm sinh viên mới</h1>
 	<form class="needs-validation form form-darkmode" action="" method="post" novalidate>

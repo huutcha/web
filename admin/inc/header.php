@@ -7,8 +7,8 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/d8507870fb.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="./css/main.css">
-	<link rel="stylesheet" href="./css/dark-mode.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" href="../css/dark-mode.css">
 </head>
 <body>
 	<header>
@@ -28,10 +28,10 @@
 		  <div class="collapse navbar-collapse ml-4" id="navbarSupportedContent">
 		    <ul class="navbar-nav mr-auto d-flex justify-content-between">
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Tổng quan</a>
+		        <a class="nav-link" href="../overview/">Tổng quan</a>
 		      </li>
 		      <li class="nav-item ">
-		        <a class="nav-link" href="#">Đào tạo</a>
+		        <a class="nav-link" href="../educate">Đào tạo</a>
 		      </li>
 		      <li class="nav-item ">
 		        <a class="nav-link" href="#">Tài liệu</a>
