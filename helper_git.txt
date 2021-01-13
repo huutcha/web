@@ -8,7 +8,7 @@ Cách sử dụng git:
 	- Câu lệnh di chuyển vd: cd /D D:\php    //Di chuyển về folder php trong ổ D
 
 3. Clone code về folder (tải code và các commit về máy): 
-	- git clone 'link htpps' 	// VD: git clone https://github.com/huutcha/test_git.git 
+	- git clone 'link htpps' 	// VD: git clone https://github.com/huutcha/web.git 
 *** Lưu ý clone chỉ sử dụng lần đầu nếu máy chưa có folder project đang làm
 *** Các lần sau mỗi trc khi làm hãy cập nhật thay đổi code của các thành viên khác về máy:
 	- git pull (Tải những thay đổi về máy)

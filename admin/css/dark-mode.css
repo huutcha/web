@@ -1,0 +1,67 @@
+body {
+	background-image: linear-gradient(135deg,#121212,#002032);
+	background-size: cover;
+
+}
+a{
+	color: #00abec;
+}
+.btn-darkmode{
+	color: #00abec;
+	border: 1px solid #00abec;
+}
+.btn.btn-darkmode:hover {
+	background-color: #00abec;
+	color: white;
+}
+
+.dropdown-menu{
+	background-color: transparent;
+	color: #00abec;
+	border: 1px solid #00abec;
+}
+.sidebar-item:hover{
+	color: white;
+	background-color: #00abec;
+	padding-left: 10px;
+}
+.sidebar-item.active{
+	color: white;
+	background-color: #00abec;
+	padding-left: 10px;
+}
+.table-dark-mode {
+	background-color: rgba(0, 0, 0, 0.05);
+	color: #00abec;
+}
+.thead-dark-mode{
+	background-color: rgba(0, 0, 0, 0.2);
+	color: #ccc;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.075);
+}
+.form-control{
+	border: 1px solid #00abec;
+	color: #ccc;
+}
+.form-control:focus{
+	background-color: rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 15px #00abec;
+	color: #ccc;
+}
+.invalid-tooltip{
+	position: unset;
+	color: #dc3545;
+	background-color: transparent;
+}
+.was-validated .form-control{
+	box-shadow: 0 0 15px #dc3545;
+}
+.was-validated .form-control:valid{
+	box-shadow: 0 0 15px #28a745;
+}
+.separate-row{
+	background-color: #00abec;
+	box-shadow: 0 0 10px #00abec;
+}
